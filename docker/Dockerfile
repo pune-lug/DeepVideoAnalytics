@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 MAINTAINER Akshay Bhat <akshayubhat@gmail.com>
 RUN apt-get update && apt-get install -y wget xz-utils
 WORKDIR "/bin/"
